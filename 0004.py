@@ -1,4 +1,4 @@
-# -- codingutf8 --
+# -*- coding:utf8 -*-
 
 ret = -1
 for i in range(100, 1000):

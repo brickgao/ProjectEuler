@@ -1,4 +1,4 @@
-# -*- coding:utf8 -*-
+# -*- coding: utf-8 -*-
 
 vis = [0 for x in range(4 * 10 ** 6)]
 ret1, ret2 = 0, 0

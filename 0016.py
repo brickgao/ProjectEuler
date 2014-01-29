@@ -1,4 +1,4 @@
-# -*- coding:utf8 -*-
+# -*- coding: utf-8 -*-
 
 _s = str(2 ** 1000)
 ret = 0

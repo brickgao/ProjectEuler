@@ -1,4 +1,4 @@
-# -*- coding:utf8 -*-
+# -*- coding: utf-8 -*-
 
 _is = [True for x in range(2 * 10 ** 6)]
 _is[0], _is[1] = False, False

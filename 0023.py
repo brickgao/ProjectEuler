@@ -7,10 +7,12 @@ for i in range(2, 28124):
     _upper = int(i ** 0.5) + 1
     _r = []
     for j in range(1, _upper + 1):
-        if not i % j:   _r += [j, i / j]
+        if not i % j:
+            _r += [j, i / j]
     _r = set(_r)
     for j in _r:
-        if j != i:      _sum += j
+        if j != i:
+            _sum += j
     if _sum > i:
         _arr.append(i)
 _len = len(_arr)

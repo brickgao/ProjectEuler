@@ -27,7 +27,11 @@ for _i in range(_begin, len(_p)):
 for _i in range(_begin, _end):
     for _j in range(_i + 1, _end):
         if _is[2 * _p[_j] - _p[_i]]:
-            _l1, _l2, _l3 = list(str(_p[_i])), list(str(_p[_j])), list(str(2 * _p[_j] - _p[_i]))
+            _l1, _l2, _l3 = (
+                list(str(_p[_i])),
+                list(str(_p[_j])),
+                list(str(2 * _p[_j] - _p[_i]))
+            )
             _l1.sort()
             _l2.sort()
             _l3.sort()

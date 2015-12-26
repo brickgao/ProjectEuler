@@ -20,7 +20,8 @@ while True:
         _flag = False
         for _e in _p:
             _tmp = (_n - _e) / 2
-            if _tmp <= 0:   break
+            if _tmp <= 0:
+                break
             if int(float(_tmp) ** 0.5) ** 2 == _tmp:
                 _flag = True
                 break

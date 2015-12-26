@@ -28,7 +28,7 @@ for _e in _p[4:]:
         if not _is[_num]:
             _flag = False
             break
-    if _flag:   
+    if _flag:
         _total += 1
         _ans += _e
     if _total == 11:

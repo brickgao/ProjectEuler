@@ -11,7 +11,7 @@ while True:
                 _tt /= i
                 _ += 1
             _s *= _ + 1
-    if _s >= 500:   break
+    if _s >= 500:
+        break
     _n += 1
 print _t
-    

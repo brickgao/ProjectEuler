@@ -2,5 +2,6 @@
 
 _s = str(2 ** 1000)
 ret = 0
-for _ in _s:    ret += int(_)
+for _ in _s:
+    ret += int(_)
 print ret

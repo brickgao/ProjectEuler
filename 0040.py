@@ -7,7 +7,8 @@ while True:
     for _e in _l:
         if _total < _e and _total + len(_s) >= _e:
             _ans *= int(_s[_e - _total - 1])
-    if _total + _now > 10 ** 6:     break
+    if _total + _now > 10 ** 6:
+        break
     _total += len(_s)
     _now += 1
 print _ans

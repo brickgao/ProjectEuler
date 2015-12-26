@@ -21,9 +21,9 @@ for i in range(10 ** 6 + 1):
 _ans1, _ans2 = 0, 0
 for _i in range(len(_p)):
     for _j in range(_i - _ans1):
-        if _p[_i] - _p[_j] >= 1000000:   break
+        if _p[_i] - _p[_j] >= 1000000:
+            break
         if _is[_p[_i] - _p[_j]] and _i - _j > _ans1:
             _ans1, _ans2 = _i - _j, _p[_i] - _p[_j]
 
 print _ans2
-

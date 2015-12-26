@@ -1,12 +1,16 @@
 # -*- coding: utf-8 -*-
 
+
 def is_pentagon(_num):
     _num = _num * 24 + 1
     if int(float(_num) ** 0.5) ** 2 != _num:
         return False
     _num = int(float(_num) ** 0.5) + 1
-    if _num % 6:    return False
-    else:           return True
+    if _num % 6:
+        return False
+    else:
+        return True
+
 
 _l = []
 _ans = 99999999999

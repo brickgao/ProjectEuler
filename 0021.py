@@ -12,4 +12,3 @@ for i in range(10000):
     if arr[i] and arr[i] > i and arr[arr[i]] == i:
         ret += arr[i] + i
 print ret
-    

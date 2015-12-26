@@ -18,6 +18,7 @@ while True:
             _l.append(_e)
             while not _tmp % _e:
                 _tmp /= _e
-    if _tmp != 1:   _l.append(_tmp)
+    if _tmp != 1:
+        _l.append(_tmp)
     _l4 = _l
     _n += 1

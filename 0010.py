@@ -18,4 +18,3 @@ ret = 0
 for _ in _p:
     ret += _
 print ret
-    

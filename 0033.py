@@ -10,10 +10,18 @@ for i in range(10, 100):
         _l2 = [str(j)[0], str(j)[1]]
         _l1 = map(int, _l1)
         _l2 = map(int, _l2)
-        if _l1[0] == _l2[1] and _l2[0] != 0 and float(i) / float(j) == float(_l1[1]) / float(_l2[0]):
+        if (
+            _l1[0] == _l2[1] and
+            _l2[0] != 0 and
+            float(i) / float(j) == float(_l1[1]) / float(_l2[0])
+        ):
             _l_ans.append((i, j))
             break
-        if _l1[1] == _l2[0] and _l2[1] != 0 and float(i) / float(j) == float(_l1[0]) / float(_l2[1]):
+        if (
+            _l1[1] == _l2[0] and
+            _l2[1] != 0 and
+            float(i) / float(j) == float(_l1[0]) / float(_l2[1])
+        ):
             _l_ans.append((i, j))
 
 _n1, _n2 = 1, 1

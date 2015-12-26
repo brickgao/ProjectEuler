@@ -5,6 +5,7 @@ _ = 2
 while True:
     while not n % _:
         n /= _
-    if n == 1:  break
+    if n == 1:
+        break
     _ += 1
 print _

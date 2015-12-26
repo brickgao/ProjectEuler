@@ -9,4 +9,3 @@ for i in range(10, 999999):
     if _tmp == i:
         _sum += i
 print _sum
-    

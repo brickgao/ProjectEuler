@@ -15,9 +15,9 @@ def gcd(a, b):
 
 def solve():
     """
-        i1 * sqrt(i) + i2
-        -----------------
-        i3 * sqrt(i) + i4
+    i1 * sqrt(i) + i2
+    -----------------
+    i3 * sqrt(i) + i4
     """
     result = 0
     for i in range(10000):

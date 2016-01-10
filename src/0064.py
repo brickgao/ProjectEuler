@@ -28,7 +28,7 @@ def solve():
         i1, i2 = 0, 1
         i3, i4 = 1, - first
         _i1, _i2 = - i1 * i4 + i2 * i3, - i2 * i4 + i1 * i3 * i
-        _i3, _i4 = 0, i3 * i3 * i - i4 * i4
+        _i4 = i3 * i3 * i - i4 * i4
         now = _i2 // _i4 + 1
         i1, i2 = 0, _i4
         i3, i4 = _i1, _i2 - now * _i4
@@ -39,7 +39,7 @@ def solve():
             vis.add((i1, i2, i3, i4))
             cnt += 1
             _i1, _i2 = - i1 * i4 + i2 * i3, - i2 * i4 + i1 * i3 * i
-            _i3, _i4 = 0, i3 * i3 * i - i4 * i4
+            _i4 = i3 * i3 * i - i4 * i4
             now = int(math.floor((i1 * _sqrt_i + i2) / (i3 * _sqrt_i + i4)))
             i1, i2 = 0, _i4
             i3, i4 = _i1, _i2 - now * _i4

@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # !/bin/env python2
 
-import random
 import itertools
 from math import sqrt
 
@@ -20,7 +19,7 @@ def check_prime(num):
 
 
 def get_prm(n):
-    i, k, e = 0, 0, int(sqrt(n) + 1)
+    i, e = 0, int(sqrt(n) + 1)
     primes.append(2)
     is_prime[0] = is_prime[1] = False
     for i in range(4, n, 2):

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from decimal import *
+from decimal import Decimal, getcontext
 
 ret1, ret2 = 0, 0
 getcontext().prec = 3000

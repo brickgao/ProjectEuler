@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
 # !/bin/env python2
+# -*- coding: utf-8 -*-
 
 from math import sqrt
 from fractions import gcd

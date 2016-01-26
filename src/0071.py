@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
 # !/bin/env python2
+# -*- coding: utf-8 -*-
 
 
 def solve():

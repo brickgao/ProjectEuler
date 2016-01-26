@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
 # !/bin/env python2
+# -*- coding: utf-8 -*-
 
 fac_list = [1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880]
 

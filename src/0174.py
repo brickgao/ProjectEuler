@@ -13,7 +13,7 @@ def solve():
             if tiles > limit:
                 break
             rec[tiles] += 1
-    for key in rec.keys():
+    for key in rec:
         if 1 <= rec[key] <= 10:
             result += 1
     return result

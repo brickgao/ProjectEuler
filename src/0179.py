@@ -8,7 +8,6 @@ def solve():
     for factor in range(2, upper_bound):
         for num in range(factor, limit, factor):
             rec[num] += 1
-    print("done")
     for num in range(2, limit):
         if rec[num] == rec[num - 1]:
             result += 1
